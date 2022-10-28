@@ -1,0 +1,35 @@
+*{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+header{
+    text-align: center;
+    color:white;
+    font-size: 35px;
+    background-color: rgb(117, 5, 222);
+    padding:30px;
+}
+article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    background-color: #7d78e3;
+    color: white;
+    height: 510px; 
+    padding-top: 150px;
+   
+  }
+footer{
+    color:white;
+    background-color: rgb(117, 5, 222);
+    text-align: center;
+    float: left;
+    font-size: 35px;
+    padding: 30px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#" style="color:white;font-weight:bold;">Templates</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white;">Link</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" style="color:white;">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3359.jpg?w=2000" height="300" class="d-block w-100" alt="..."> 
+          </div>
+          <div class="carousel-item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0HCA0HBwcHDQ8IDQcNFREWFhURExMYHSggGBoxGxUfITEhJSkrLjouFx8zODMtNygtLisBCgoKDQ0NFQ0NEisZFRktKzcrKy0rKzctKzcrLTcrLS0rKy0rKy0rLS0rKysrKysrLSsrKystKysrLSsrKysrN//AABEIALcBEwMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUG/8QAHRABAQADAQEBAQEAAAAAAAAAAAECERIDEyGRQf/EABoBAQADAQEBAAAAAAAAAAAAAAMBAgQABwb/xAAdEQEBAQEBAQADAQAAAAAAAAAAAQIRAxITMUEh/9oADAMBAAIRAxEAPwDgmI6NptPoPl9NKXTaNptI4WUmg0elRwspQNQVuSSlAwKWFzQsLThVLDZpLC2HsCxSw+anYWqWFsHYfNTparYSwdjRmlYdNoOoWLeHp/ju88nlz8dnh6Mnpgfpj+u7GmTwqkZtRlow0LDQVVGGgQYKqU0GAaDqraHTQ2lKjpdNo+g0pUdJpj6ZHXdeZphZ6Rx89NBQEEcJNAA0KjhJotAwK2Fmi6A+iq2FlADAOw2aWlsOGlLD50SwLD2BpSxozU7C2KWFsFYfNT0B7C2C1k+aBsMtUGBvJP27/LN0415njnr8/ju8smL0zxl9McdENCymjPqApoaEhoKxSmhoWGgqrTQYENB1WiwxtDqoCIKueWws9O4+Zmi0DAjhZooGBHCTQALK2FmihowK2GzooH0Filhs6LoNGZSw2aTQWH0Fg7GjOk7C2K2FsHY0Z0lYFilhbBWNGdJ6bR9BoOsmlK6fD0c+hn4zbz12p2PU88lo4fD027MKxbzxj3nikNCQ0BqBpoaFh4HUVpoaFhoLSlGGgQ0FVaGmNplEdeSBgepcfKTQAYEcJNFAwaRwk0VhZWwudFY2m0rYbOiabRtNpWw+dEsDR9BpSw+dF0Gj6bQ7D50noLFNBodjRnSVhbFrC6HY0Z0lYGleQ5DqHzpLTaUuIcg1knS4XVd3jntxaU8stMnphTc7Hp408c/lk6Ix6yx6nDQ0LDQGoOmhoWHgdRWmhoWHgdKUWFhqvIA2geq8fGzZWFncJNlA2g0rwk2AG02kcLnZdMbTaVsNnZdMbTaUsPnZNNo+m0pYfO09NpTTcqWNGdp6bSnLcjsPnaXIXFbkOR2NGdo8hyvyHIdQ+dochcV+G4DqGm3PyHK9wDhn1FvpvHPTu88nFMXR41j9Mi9J3/XVIaBgpIy6jLa0hpGkNIz6ilrSHkaQ8gNRS0NMfQCV68jQaUsDT1V8LNp6DSmg0lebT0x9NpBJ6EbRtNpHCT0LptG02lbC59C6HRtNpSw+fQum0fQ6UsPn0JpuT6HSljRn0Jy3KmhmI7GnPoly3KvI8jsPn0R5bhfluRWGz6IcNwvw3AdQ+fRz8Bw6uA4Z9Qn25uDTFeeYzBl3EXY+TomKXni6scWTcBukmJpieYmmLNqCuiyGmJ5iaYs24pdE5FTlhK/TxdByry3L1N5/9o8hpW4hylabS02lNNyhaeieg0ppuXEnonptKctyqSeieh0fTcq02fUuh0bQyK0+fUuh0aQ0g60Z9SaHk8hpiOtOfUnIzE8xNMR1pz6J8jwrMTch0fPohwMwX4GYC0bPohwPzdEwN82fRJ6OX5jw6fm3zZdp/Ihjg6MMRnmvhgy7im9pTE0wW4Hlm3BfaMxNMVZiMxZtxW6T5ZXkQK/Tw+Q5W0HL1Drz36R5Dla4hynrvpHkOVuW5d1b7R5blXkOXdWm0tNyryHKq89E+W5V5blBJ6J8jMT8m5Vps+qcxNMTzE0xUrRn1TmJ5iaYnmI6049STE0xPMTzEVac+qcxPMVJieYC00Z9UpgaYLTA0wBo89UZgaYLzA0wBok9HP8AMfm6ZgPDNtf8jl+a2GCnCuODLtXW0OBmK3A8M+1ftHkeVuW5Zdq/SXLLcsB308LluVdNy9L687+0eA4W5Dl3U/aPBeF+QuKeu+0OA4X5bl3U/aHLcr8ty7q02hy3K/DcI6SbR5HlXhuVekm05iaYnmJpirTZ9CTE0xPMTTEdaM+hZieYmmJ5iKtOfUsxPMT44nxxFpoz6lmJ5ieYnmINHz6kmBpgpMTzEGjT0SmA8LTE0xZ9FnohweYKzA/LNp12hw3C/LcM+0fSHI8rctyy7d9JcgtywHfT5/luVJG09G686+0+Q5V5blPXfSPIcraDl3XfSXIcrcty7qftHkeVeW5d1M2jyPKvI8o6vNpctyryMxR0k2lwPC0xGYqWlz6JTA0xVmJpipa0Z9E5ieYqTE0xHa0Z2XHE+OJpieYi0fPoWYqTEZieYh0fPoWYnmJpDzEOj59CzEZieYnmLPo02THE3J5iaYs+l/tLluVuW5Z9J+keQ5X5LcWXafpLllNMzJ6+dkHQyHkeidecyk0HKmm07qepablXQcu6jqfLcqcty7rup8tpTluXdT1PluVeW5R1aaT5NyfkZEdXmiTEZipMRmKtpJokxNMTzE0ilps7LMTzEZDyKWtGdhMTTE0h5BWtGdlmJ5BmJ5iKnzssh5BkPIHR87CQ0hpDSA0bOwkNMTSDIz6LNl5blSRtM+iTSVxLYtYWxk9KtKjpj6Zl6t181jTysz0V5xLRFmQt2szM53WbTM5PQ0OmZDutodMzkyjIMjMqtKaQdMyKSUZDyMylJKaQ0jMpT5tPIeQGHT51VJDRmFT5tPIaRmDo+dU8hozB0fNpoaMwNGzaaRtCzLs2aWwmUZmL1pYRmZj6u//Z" height="300" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" height="300" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+      <br><br>
+      <div style="background-color:lightcyan ;">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col" style="padding:100px ;">
+            <div class="card h-100" style="height: 10px;">
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">No Coding</h5>
+                <p class="card-text">No-code development is a type of web development that allows non-programmers and programmers to create software using a graphical user interface, instead of writing code. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col" style="padding:100px ;">
+            <div class="card h-100" style="height: 10px;">
+              <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNYDpTm7wRw6UCPWeonNa_hyajWvLGP6a0Q&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mobile Friendly</h5>
+                <p class="card-text">Generally, the meaning of mobile friendly is that your website performs well on a mobile device like a phone or tablet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col" style="padding:100px ;">
+            <div class="card h-100" style="height: 10px;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwrsKKU3i_F-8aOT5m4BdnofkFwGk3dcMolg&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Unique Style</h5>
+                <p class="card-text">The number will be unique if it is positive integer and there are no repeated digits in the number. In other words, a number is said to be unique if and only if the digits are not duplicate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div style="background-color:antiquewhite;">
+          <form style="padding:30px ;">
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            
+            <div class="row mb-3">
+              <div class="col-sm-10 offset-sm-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Example checkbox
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form> 
+
+        </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
